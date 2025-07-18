@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D Gokul - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: #fefefe;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2rem;
+      background: linear-gradient(to right, #4facfe, #00f2fe);
+      color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+    header a {
+      color: white;
+      font-weight: 500;
+      text-decoration: none;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 3rem 2rem;
+      background: #e7f5ff;
+    }
+    .hero img {
+      border-radius: 20px;
+      width: 300px;
+      height: auto;
+      margin-right: 2rem;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    .hero-text h1 {
+      font-size: 2.7rem;
+      margin-bottom: 0.5rem;
+      color: #0056b3;
+    }
+    .typing {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #007bff;
+      animation: blink 1.5s infinite;
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    section {
+      padding: 2rem;
+      background: #fff;
+      margin: 1rem auto;
+      max-width: 1100px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      margin-bottom: 1rem;
+      color: #007bff;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+    .btn-download {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s;
+    }
+    .btn-download:hover {
+      background-color: #0056b3;
+    }
+    .footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f1f1f1;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>D Gokul</h1>
+    <a href="https://www.linkedin.com/in/1107g" target="_blank">LinkedIn</a>
+  </header>
+
+  <section class="hero">
+    <img src="your-photo.jpg" alt="D Gokul" />
+    <div class="hero-text">
+      <h1>Hello, I'm D Gokul</h1>
+      <p class="typing">Cybersecurity Enthusiast | Full Stack Learner</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Objective</h2>
+    <p>A dedicated and hard-working person with a strong background in computer science and a passion for technology & bringing a curious and innovative mindset to every project. Eager to apply my knowledge to real-world problems and make a positive impact.</p>
+  </section>
+
+  <section class="grid">
+    <div>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Technical:</strong> HTML, CSS, JavaScript, Python, Linux, MS Office, Excel</li>
+        <li><strong>Soft:</strong> Active Listening, Time Management, Problem Solving, Teamwork</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Languages & Hobbies</h2>
+      <ul>
+        <li><strong>Languages:</strong> Tamil (RWS), English (RWS)</li>
+        <li><strong>Hobbies:</strong> Farming, Gaming</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>PG (2024–2025):</strong> AJK College Of Arts And Science – M.Sc. Cyber Security (75%)</li>
+      <li><strong>UG (2020–2023):</strong> Rathinam College Of Arts And Science – B.Sc. Digital & Cyber Forensics (62%)</li>
+      <li><strong>HSC (2020):</strong> Paavendhar Matric Hr. Sec School (65%)</li>
+      <li><strong>SSLC (2018):</strong> Paavendhar Matric Hr. Sec School (83%)</li>
+    </ul>
+  </section>
+
+  <section class="grid">
+    <div>
+      <h2>Internships</h2>
+      <ul>
+        <li>Concept of Python – Ether Infotech, June 2023</li>
+        <li>Cybersecurity Tool Development – Cappricio Securities, May & June 2024</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Courses</h2>
+      <ul>
+        <li>Demystifying Networking & Ethical Hacking – Sawam, March 2023</li>
+        <li>Full Stack Python – Ether Infotech, April & May 2023</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li>Multiple Encryption using Python – May 2023</li>
+      <li>ARP Poisoning Detection Tool – August 2024</li>
+      <li>DDOS Attack Detection using ML – April 2025</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Reference</h2>
+    <p><strong>Mr. Kamalaraj</strong> – HOD, PG Department of Cyber Security<br />Phone: +91 9790556494</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <ul>
+      <li>📞 8098460812</li>
+      <li>📧 gokuldharmaraja@gmail.com</li>
+      <li>📍 Salem, Tamil Nadu</li>
+    </ul>
+    <a class="btn-download" href="#" onclick="window.print()">Download as PDF</a>
+  </section>
+
+  <div class="footer">
+    <p>© 2025 D Gokul. All Rights Reserved.</p>
+  </div>
+</body>
+</html>
